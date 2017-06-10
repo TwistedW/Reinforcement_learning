@@ -54,11 +54,11 @@ class Maze(tk.Tk, object):
             oval_center[0] + 30, oval_center[1] + 30,
             fill='green')
 
-        # create red rect
+        # create blue rect
         self.rect = self.canvas.create_rectangle(
             origin[0] - 30, origin[1] - 30,
             origin[0] + 30, origin[1] + 30,
-            fill='red')
+            fill='blue')
 
         # pack all
         self.canvas.pack()
