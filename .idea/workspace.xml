@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64ceca40-39ca-4d7c-ac4b-958a074e59a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="64ceca40-39ca-4d7c-ac4b-958a074e59a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +16,7 @@
     <SUITE FILE_PATH="coverage/Reinforcement_learning$maze_env.coverage" NAME="maze_env Coverage Results" MODIFIED="1497106647918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q_learning_maze" />
     <SUITE FILE_PATH="coverage/Reinforcement_learning$run_this.coverage" NAME="run_this Coverage Results" MODIFIED="1497106677388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q_learning_maze" />
     <SUITE FILE_PATH="coverage/Reinforcement_learning$run_this__2_.coverage" NAME="run_this (2) Coverage Results" MODIFIED="1497109681183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q_learning_maze" />
-    <SUITE FILE_PATH="coverage/Reinforcement_learning$Sarsa_run_this.coverage" NAME="Sarsa_run_this Coverage Results" MODIFIED="1497366329093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sarsa_maze" />
+    <SUITE FILE_PATH="coverage/Reinforcement_learning$Sarsa_run_this.coverage" NAME="Sarsa_run_this Coverage Results" MODIFIED="1497366428628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sarsa_maze" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -72,8 +70,8 @@
       <file leaf-file-name="Sarsa_run_this.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sarsa_maze/Sarsa_run_this.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="50">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -662,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sarsa_maze/Sarsa_run_this.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
