@@ -1,8 +1,8 @@
 import numpy as np
-np.random.seed(1)
 import tkinter as tk
 import time
 
+np.random.seed(1)
 
 UNIT = 40   # pixels
 MAZE_H = 4  # grid height
