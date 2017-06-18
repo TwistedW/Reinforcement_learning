@@ -39,7 +39,7 @@ class Maze(tk.Tk):
         self.hell1 = self.canvas.create_rectangle(
             hell1_center[0] - 15, hell1_center[1] - 15,
             hell1_center[0] + 15, hell1_center[1] + 15,
-            fill='black')
+            fill='red')
         # hell
         # hell2_center = origin + np.array([UNIT, UNIT * 2])
         # self.hell2 = self.canvas.create_rectangle(
@@ -52,13 +52,13 @@ class Maze(tk.Tk):
         self.oval = self.canvas.create_oval(
             oval_center[0] - 15, oval_center[1] - 15,
             oval_center[0] + 15, oval_center[1] + 15,
-            fill='yellow')
+            fill='green')
 
         # create red rect
         self.rect = self.canvas.create_rectangle(
             origin[0] - 15, origin[1] - 15,
             origin[0] + 15, origin[1] + 15,
-            fill='red')
+            fill='blue')
 
         # pack all
         self.canvas.pack()
@@ -71,7 +71,7 @@ class Maze(tk.Tk):
         self.rect = self.canvas.create_rectangle(
             origin[0] - 15, origin[1] - 15,
             origin[0] + 15, origin[1] + 15,
-            fill='red')
+            fill='blue')
         # return observation
         return (np.array(self.canvas.coords(self.rect)[:2]) - np.array(self.canvas.coords(self.oval)[:2]))/(MAZE_H*UNIT)
 
