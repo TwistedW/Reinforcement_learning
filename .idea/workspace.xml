@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64ceca40-39ca-4d7c-ac4b-958a074e59a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deep_Q_Network/DQN_RL_brain.py" afterPath="$PROJECT_DIR$/Deep_Q_Network/DQN_RL_brain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py" afterPath="$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="maze_env.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q_learning_maze/maze_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2368">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DQN_RL_brain.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DQN_RL_brain.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_RL_brain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4825">
-              <caret line="193" column="18" lean-forward="false" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
+            <state relative-caret-position="-4343">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -83,12 +83,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DQN_maze_env.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DQN_maze_env.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2800">
+              <caret line="112" column="21" lean-forward="false" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,10 +142,10 @@
         <option value="$PROJECT_DIR$/Sarsa_maze/Sarae_RL_brain.py" />
         <option value="$PROJECT_DIR$/Sarsa_maze/Sarsa_run_this.py" />
         <option value="$PROJECT_DIR$/Sarsa_maze/Sarsa_maze_env.py" />
-        <option value="$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py" />
         <option value="$PROJECT_DIR$/Deep_Q_Network/DQN_run.py" />
         <option value="$PROJECT_DIR$/Deep_Q_Network/DQN_modified.py" />
         <option value="$PROJECT_DIR$/Deep_Q_Network/DQN_RL_brain.py" />
+        <option value="$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py" />
       </list>
     </option>
   </component>
@@ -750,24 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Q_learning_maze/maze_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2368">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,8 +782,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_RL_brain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4825">
-          <caret line="193" column="18" lean-forward="false" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
+        <state relative-caret-position="-4343">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q_learning_maze/maze_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deep_Q_Network/DQN_maze_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="112" column="21" lean-forward="false" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
