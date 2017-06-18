@@ -14,14 +14,15 @@ class Maze(tk.Tk):
         self.action_space = ['u', 'd', 'l', 'r']
         self.n_actions = len(self.action_space)
         self.n_features = 2
+        self.rect = self.rect
         self.title('maze')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_H * UNIT))
         self._build_maze()
 
     def _build_maze(self):
         self.canvas = tk.Canvas(self, bg='white',
-                           height=MAZE_H * UNIT,
-                           width=MAZE_W * UNIT)
+                                height=MAZE_H * UNIT,
+                                width=MAZE_W * UNIT)
 
         # create grids
         for c in range(0, MAZE_W * UNIT, UNIT):
