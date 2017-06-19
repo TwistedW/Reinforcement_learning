@@ -3,7 +3,7 @@ import tkinter as tk
 import time
 
 
-UNIT = 40   # pixels
+UNIT = 80   # pixels
 MAZE_H = 4  # grid height
 MAZE_W = 4  # grid width
 
@@ -32,32 +32,32 @@ class Maze(tk.Tk):
             self.canvas.create_line(x0, y0, x1, y1)
 
         # create origin
-        origin = np.array([20, 20])
+        origin = np.array([40, 40])
 
         # hell
         hell1_center = origin + np.array([UNIT * 2, UNIT])
         self.hell1 = self.canvas.create_rectangle(
-            hell1_center[0] - 15, hell1_center[1] - 15,
-            hell1_center[0] + 15, hell1_center[1] + 15,
+            hell1_center[0] - 30, hell1_center[1] - 30,
+            hell1_center[0] + 30, hell1_center[1] + 30,
             fill='red')
         # hell
-        # hell2_center = origin + np.array([UNIT, UNIT * 2])
-        # self.hell2 = self.canvas.create_rectangle(
-        #     hell2_center[0] - 15, hell2_center[1] - 15,
-        #     hell2_center[0] + 15, hell2_center[1] + 15,
-        #     fill='black')
+        hell2_center = origin + np.array([UNIT, UNIT * 2])
+        self.hell2 = self.canvas.create_rectangle(
+            hell2_center[0] - 30, hell2_center[1] - 30,
+            hell2_center[0] + 30, hell2_center[1] + 30,
+            fill='red')
 
         # create oval
         oval_center = origin + UNIT * 2
         self.oval = self.canvas.create_oval(
-            oval_center[0] - 15, oval_center[1] - 15,
-            oval_center[0] + 15, oval_center[1] + 15,
+            oval_center[0] - 30, oval_center[1] - 30,
+            oval_center[0] + 30, oval_center[1] + 30,
             fill='green')
 
-        # create red rect
+        # create blue rect
         self.rect = self.canvas.create_rectangle(
-            origin[0] - 15, origin[1] - 15,
-            origin[0] + 15, origin[1] + 15,
+            origin[0] - 30, origin[1] - 30,
+            origin[0] + 30, origin[1] + 30,
             fill='blue')
 
         # pack all
@@ -65,12 +65,12 @@ class Maze(tk.Tk):
 
     def reset(self):
         self.update()
-        time.sleep(0.1)
+        time.sleep(0.5)
         self.canvas.delete(self.rect)
-        origin = np.array([20, 20])
+        origin = np.array([40, 40])
         self.rect = self.canvas.create_rectangle(
-            origin[0] - 15, origin[1] - 15,
-            origin[0] + 15, origin[1] + 15,
+            origin[0] - 30, origin[1] - 30,
+            origin[0] + 30, origin[1] + 30,
             fill='blue')
         # return observation
         return (np.array(self.canvas.coords(self.rect)[:2]) - np.array(self.canvas.coords(self.oval)[:2]))/(MAZE_H*UNIT)
