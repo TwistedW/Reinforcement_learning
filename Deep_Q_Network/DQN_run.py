@@ -32,7 +32,7 @@ def run_maze():
             step += 1
 
     # end of game
-    print('game over')
+    print('game over, you can try again')
     env.destroy()
 
 
